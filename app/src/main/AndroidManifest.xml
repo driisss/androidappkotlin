@@ -13,10 +13,32 @@
         android:theme="@style/Theme.MeroApp"
         tools:targetApi="31">
         <activity
+            android:name=".SigninActivity"
+            android:exported="true"
+            android:label="@string/title_activity_signin"
+            android:theme="@style/Theme.MeroApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true"
+            android:label="@string/title_activity_signup"
+            android:theme="@style/Theme.MeroApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.MeroApp">
+            android:theme="@style/Theme.ClassWork">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

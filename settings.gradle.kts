@@ -21,3 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "mero app"
 include(":app")
+include(":app")
+ 

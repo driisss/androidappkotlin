@@ -46,7 +46,7 @@ fun main() {
     println(firstName)
 
     val lastName = "Sapkota"
-    println(lastName)git remote add origin link
+    println(lastName)
 
 
     val fullName = "$firstName $lastName"

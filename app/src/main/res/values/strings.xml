@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">mero app</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_signin">SigninActivity</string>
 </resources>
