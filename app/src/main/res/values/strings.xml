@@ -2,4 +2,8 @@
     <string name="app_name">mero app</string>
     <string name="title_activity_signup">SignupActivity</string>
     <string name="title_activity_signin">SigninActivity</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_activity_drop_down_menu">DropDownMenu</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
 </resources>

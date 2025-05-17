@@ -54,13 +54,13 @@ class cardassignment : ComponentActivity(){
         enableEdgeToEdge()
         setContent {
             Scaffold { innerPadding ->
-                ProfileBody(innerPadding)
+                CardBody(innerPadding)
             }
         }
     }
 }
 @Composable
-fun ProfileBody(innerPadding : PaddingValues){
+fun CardBody(innerPadding : PaddingValues){
     Column(
         modifier = Modifier
 
@@ -280,5 +280,5 @@ fun ProfileBody(innerPadding : PaddingValues){
 @Preview(showBackground = true)
 @Composable
 fun PreviewProfile(){
-    ProfileBody(innerPadding = PaddingValues(0.dp))
+    CardBody(innerPadding = PaddingValues(0.dp))
 }
